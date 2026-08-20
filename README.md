@@ -87,24 +87,24 @@ Layer 8 was therefore selected **before the IIT experiments**, based on the earl
 The self-referential representation was converted into an activation-steering vector:
 
 [
-v_{\mathrm{ego}}
+$v_{\mathrm{ego}}$
 ================
 
-## \operatorname{mean}(H_{\mathrm{self}})
+$## \operatorname{mean}(H_{\mathrm{self}})$
 
-\operatorname{mean}(H_{\mathrm{objective}})
+$\operatorname{mean}(H_{\mathrm{objective}})$
 ]
 
 The residual stream was then intervened on according to:
 
 [
-h'=h+\alpha v_{\mathrm{ego}}
+$h'=h+\alpha v_{\mathrm{ego}}$
 ]
 
 where:
 
-* (v_{\mathrm{ego}}) = ego/self-referential direction
-* (\alpha) = steering strength
+$* (v_{\mathrm{ego}}) = ego/self-referential direction$
+$* (\alpha) = steering strength$
 
 This provides a controllable experimental proxy for **ego density**.
 
@@ -129,7 +129,7 @@ PyPhi was configured for **IIT 3.0**.
 A built-in PyPhi sanity test successfully produced:
 
 [
-\boxed{\Phi=2.312499}
+$\boxed{\Phi=2.312499}$
 ]
 
 This established that the IIT implementation and environment were functioning correctly.
@@ -145,7 +145,7 @@ Large systems were computationally prohibitive, so the project was reduced to a 
 A binary system with 3 nodes has:
 
 [
-2^3=8
+$2^3=8$
 ]
 
 possible states.
@@ -155,7 +155,7 @@ Candidate GPT-2 activation directions were perturbed to measure causal interacti
 A larger 8-node causal interaction experiment found:
 
 [
-\boxed{35\text{ directed causal edges}}
+$\boxed{35\text{ directed causal edges}}$
 ]
 
 among the candidate nodes, demonstrating that GPT-2 internal representations could be used to construct a nontrivial causal system.
@@ -177,7 +177,7 @@ The resulting system could be successfully passed to PyPhi.
 At zero ego steering:
 
 [
-\boxed{\Phi\approx0.001587}
+$\boxed{\Phi\approx0.001587}$
 ]
 
 This established the working experimental pipeline:
@@ -201,7 +201,7 @@ PyPhi / IIT 3.0
 The original ego vector was steered over:
 
 [
-\alpha=-2,-1,0,+1,+2
+$\alpha=-2,-1,0,+1,+2$
 ]
 
 Observed results:
@@ -217,13 +217,13 @@ Observed results:
 Pearson correlation:
 
 [
-r\approx0.916
+$r\approx0.916$
 ]
 
 Thus, in the initial regime:
 
 [
-\boxed{E\uparrow\Rightarrow\Phi\uparrow}
+$\boxed{E\uparrow\Rightarrow\Phi\uparrow}$
 ]
 
 This contradicted the project's original assumption that increasing ego would immediately reduce awareness/integration.
@@ -237,28 +237,28 @@ The hypothesis was consequently revised.
 Instead of:
 
 [
-E\uparrow\Rightarrow\Phi\downarrow
+$E\uparrow\Rightarrow\Phi\downarrow$
 ]
 
 the working hypothesis became:
 
-[
+[$
 \boxed{
 E\uparrow
 \Rightarrow
 \Phi\uparrow
 \quad\text{initially}
-}
+}$
 ]
 
 followed by:
 
-[
+[$
 \boxed{
 E>E^*
 \Rightarrow
 \Phi\downarrow
-}
+}$
 ]
 
 The prediction is therefore an **inverted-U relationship**:
@@ -290,7 +290,7 @@ The resulting trajectory exhibited:
 The peak occurred around the vicinity of:
 
 [
-\alpha\approx8-10
+$\alpha\approx8-10$
 ]
 
 in the tested setup.
@@ -341,13 +341,13 @@ An inverted-U score was defined as the maximum elevation of the observed curve a
 For the original ego vector:
 
 [
-\boxed{U_{\mathrm{ego}}\approx0.0082}
+$\boxed{U_{\mathrm{ego}}\approx0.0082}$
 ]
 
 while the initial random controls had:
 
 [
-U_{\mathrm{random}}\approx0.000285
+$U_{\mathrm{random}}\approx0.000285$
 ]
 
 The ego vector exceeded all initial controls.
@@ -367,7 +367,7 @@ Their inverted-U scores were:
 Mean:
 
 [
-\boxed{0.007165}
+$\boxed{0.007165}$
 ]
 
 Standard deviation:
@@ -388,7 +388,7 @@ Thirty random orthogonal control directions were then tested using the same expe
 Their statistics were:
 
 [
-\text{mean}=0.000168
+$\text{mean}=0.000168$
 ]
 
 [
@@ -396,7 +396,7 @@ SD=0.000277
 ]
 
 [
-\max=0.001093
+$\max=0.001093$
 ]
 
 Every one of the five ego vectors exceeded every one of the 30 random-null U-scores.
@@ -404,7 +404,7 @@ Every one of the five ego vectors exceeded every one of the 30 random-null U-sco
 The finite empirical comparison produced:
 
 [
-\boxed{p\approx0.0323}
+$\boxed{p\approx0.0323}$
 ]
 
 The corresponding computed mean-ego/null z-score was approximately 25, although this is **not interpreted as a conventional Gaussian significance statistic**.
@@ -416,7 +416,7 @@ The corresponding computed mean-ego/null z-score was approximately 25, although 
 
 The current empirical picture is:
 
-[
+[$
 \boxed{
 \text{ego density}
 \uparrow
@@ -426,7 +426,7 @@ The current empirical picture is:
 \Phi_{\max}
 \rightarrow
 \Phi\downarrow
-}
+}$
 ]
 
 and the inverted-U is substantially stronger for the tested ego vectors than for the random orthogonal null directions.
@@ -444,10 +444,10 @@ The theoretical manuscript describes a compositional dual-aspect-monist framewor
 The manuscript currently defines Ego density as:
 
 [
-\rho_E=\frac{I_E}{Kr^m}
+$\rho_E=\frac{I_E}{Kr^m}$
 ]
 
-where (I_E) represents accumulated thought intensity and (Kr^m) corresponds to the volume scale of the self-awareness region. 
+where $(I_E)$ represents accumulated thought intensity and (Kr^m) corresponds to the volume scale of the self-awareness region. 
 
 The current empirical investigation does **not** attempt to validate the manuscript's singularity/collapse mechanism.
 
@@ -458,7 +458,7 @@ Instead, the working interpretation is narrower:
 This motivates an empirical relationship of the form:
 
 [
-\boxed{\Phi=f(\rho_E)}
+$\boxed{\Phi=f(\rho_E)}$
 ]
 
 with (f) potentially exhibiting an inverted-U structure.
@@ -472,7 +472,7 @@ This project does **not** demonstrate that GPT-2 is conscious.
 It also does not establish that:
 
 [
-\Phi=\text{phenomenal awareness}
+$\Phi=\text{phenomenal awareness}$
 ]
 
 as a metaphysical fact.
