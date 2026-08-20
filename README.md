@@ -20,7 +20,7 @@ The computational project asks whether an analogous phenomenon can be observed i
 The central empirical question is:
 
 [
-\boxed{\text{How does IIT }\Phi\text{ change as ego-like representation increases?}}
+$\boxed{\text{How does IIT }\Phi\text{ change as ego-like representation increases?}}$
 ]
 
 ---
