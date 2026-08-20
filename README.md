@@ -90,7 +90,7 @@ The self-referential representation was converted into an activation-steering ve
 $v_{\mathrm{ego}}$
 ================
 
-$## \operatorname{mean}(H_{\mathrm{self}})$
+## $\operatorname{mean}(H_{\mathrm{self}})$
 
 $\operatorname{mean}(H_{\mathrm{objective}})$
 ]
