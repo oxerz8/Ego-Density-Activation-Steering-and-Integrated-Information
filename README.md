@@ -46,6 +46,7 @@ Self-referential representations were therefore substantially more internally co
 A 2D PCA projection produced visible separation between the two groups.
 
 PC1 explained approximately **24.1% of the variance**.
+<img width="2400" height="1800" alt="pca_thought_space_clustering" src="https://github.com/user-attachments/assets/8dfb2fcc-eab3-4da7-b4e2-c7d3cb8abb4e" />
 
 ---
 
@@ -84,7 +85,6 @@ Layer 8 was therefore selected **before the IIT experiments**, based on the earl
 # 4. Activation Steering
 
 The self-referential representation was converted into an activation-steering vector:
-<img width="2400" height="1800" alt="pca_thought_space_clustering" src="https://github.com/user-attachments/assets/8dfb2fcc-eab3-4da7-b4e2-c7d3cb8abb4e" />
 
 [
 v_{\mathrm{ego}}
